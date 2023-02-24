@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/estilo.css">
     <title>Proyecto CV-Argentina Programa</title>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <header>
+        <h1>Mi CV</h1>
+        <nav>
+            <ul  id="items-menu">
+                <li><a id="link-presentacion" class="a-nav" href="#presentacion">Presentación</a></li>
+                <li><a id="link-habilidades" class="a-nav" href="#habilidades">Habilidades</a></li>
+                <li><a id="link-estudios" class="a-nav" href="#estudios">Estudios</a></li>
+                <li><a id="link-cursos" class="a-nav" href="#cursos">Cursos</a></li>
+                <li><a id="link-contacto" class="a-nav" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contenedor">
+        <div id="info-personal" class="black">
+            <h2 id="h2"></h2>
+            <img id="img" src="" alt="foto de perfil">
+            <ul>
+                <li class="items-info">
+                    <i class="fi fi-sr-marker"></i>
+                    <p  id="ubicacion">SAN SALVADOR DE JUJUY, JUJUY, ARGENTINA</p>
+                </li>
+                <li class="items-info">
+                    <i class="fi fi-sr-envelope-open"></i>
+                    <a id="mail" href="mailto:email">email</a>
+                </li>
+                <li class="items-info">
+                    <i class="fi fi-sr-phone-call"></i>
+                    <p id="tel">teléfono</p>
+                </li>
+            </ul>
+        </div>
+        <div id="presentacion" class="black">
+            <h2>ESTUDIANTE DE DESARROLLO WEB</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero veritatis dolorum nisi nam voluptatibus vero, perferendis ex illum officia deserunt odio ipsa minima incidunt labore placeat at quo impedit distinctio nemo. Libero incidunt officia ullam eligendi nostrum, molestiae nam quasi inventore enim eveniet! Harum sit corrupti facere labore tempore? Pariatur at quos iusto libero nam dolorum ex ea? Consectetur aliquid voluptatem sint autem ad quam a, dolorum molestias dolor ipsum doloribus quisquam excepturi corporis perspiciatis necessitatibus sunt sed earum asperiores fugiat. Qui totam doloribus excepturi quae quasi, eaque velit sapiente porro quia modi ab facilis neque est rem culpa?</p>
+        </div>
+    </div>
+    <div id="segundo-contenedor">
+        <div id="estudios" class="black">
+            <h3>ESTUDIOS</h3>
+            <ul>
+                <li>
+                    <h4>Colegio Santa Teresita</h4>
+                    <p>Polimodal orientacion Cs.Naturales</p>
+                </li>
+                <li>
+                    <h4>Instituto Superior Jujuy</h4>
+                    <p>Tec. Desarrollo de Software no
+                        universitario. (incompleto)</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="cursos" class="black">
+            <h3>CURSOS/IDIOMAS</h3>
+            <ul>
+                <li>
+                    <h4>Curso de Programación</h4>
+                    <p>"#SéProgramar"- Argentina Programa- 30
+                        de diciembre 2021</p>
+                </li>
+                <li>
+                    <h4>Inglés</h4>
+                    <p>Básico.</p>
+                </li>
+                <li>
+                    <h4>Portugués</h4>
+                    <p>Intermedio</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="habilidades" class="black">
+            <h3>HABILIDADES</h3>
+            <div id="tecnologias">
+                <div class="tecnologia">
+                    <img class="logo-tecnologia" src="images/javascript.png" alt="logo javascript">
+                    <p>Javascript</p> 
+                </div>
+                <div class="tecnologia">
+                    <img class="logo-tecnologia" src="images/html.png" alt="logo javascript">
+                    <p>HTML5</p> 
+                </div>
+                <div class="tecnologia">
+                    <img class="logo-tecnologia" src="images/css.png" alt="logo javascript">
+                    <p>CSS3</p> 
+                </div>
+                <div class="tecnologia">
+                    <img class="logo-tecnologia" src="images/bootstrap.png" alt="logo javascript">
+                    <p>Bootstrap</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
 </body>
 </html>
